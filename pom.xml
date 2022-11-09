@@ -93,7 +93,8 @@
 	<distributionManagement>
 		<repository>
 			<id>deploymentRepo</id>
-			<url>http://172.16.99.128:8081/repository/maven-snapshots/</url>
+			<name>nexus</name>
+			<url>http://172.16.99.128:8081/repository/maven-releases/</url>
 		</repository>
 	</distributionManagement>
         <build>
